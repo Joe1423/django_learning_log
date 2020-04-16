@@ -1,0 +1,7 @@
+Create a virtual environment -> python -m venv <name>
+
+Activate virtual environment -> source <name>/bin/activate
+
+Stop virtual environment -> deactivate
+
+Install Django -> pip install django
