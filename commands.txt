@@ -5,3 +5,19 @@ Activate virtual environment -> source <name>/bin/activate
 Stop virtual environment -> deactivate
 
 Install Django -> pip install django
+
+Create a django project -> django-admin.py startproject <projectname> .
+
+Create a database/apply migration -> python manage.py migrate 
+
+View the project -> python manage.py runserver <port(optional)>
+
+Start and app -> python manage.py startapp <appName>
+
+Add user models to the database -> python migrate.py makemigrations learning_logs
+
+Create admin user -> python manage.py createsuperuser
+
+Registering a model -> admin.py
+
+
